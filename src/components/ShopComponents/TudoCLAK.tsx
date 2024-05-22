@@ -2,12 +2,6 @@ import React from "react";
 import { ScrollView, Text, TouchableOpacity, View, StyleSheet, Image } from "react-native";
 import { RFValue as RF } from "react-native-responsive-fontsize";
 
-import { dataOptions } from "../../data/optionsInves";
-
-import { dataOptionsSeguros } from "../../data/optionsSeguros";
-import { CardButton } from "./CardButtonCLAK";
-import { anuncios } from "../../data/anuncios";
-import { SvgXml } from "react-native-svg";
 export const Tudo :  React.FC = () => {
   return (
   <>  

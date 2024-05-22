@@ -24,7 +24,9 @@ export const TopActions : React.FC<TopProps> = ({navigation}) => {
           <TouchableOpacity>
         <SvgXml xml={visualize} />
       </TouchableOpacity>
-      <TouchableOpacity>
+      <TouchableOpacity
+        onPress = {() => navigation.navigate("ActionsHelp")}
+      >
         <SvgXml xml={about} />
       </TouchableOpacity>
       <TouchableOpacity>

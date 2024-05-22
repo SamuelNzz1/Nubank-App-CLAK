@@ -7,7 +7,7 @@ import { RFValue as RF } from "react-native-responsive-fontsize";
 type TopProps ={
     navigation : any
 }
-export const TopMoney : React.FC<TopProps> = ({navigation}) => {
+export const TopShop : React.FC<TopProps> = ({navigation}) => {
   return (
   <View
     style = {styles.topView}
@@ -23,7 +23,7 @@ export const TopMoney : React.FC<TopProps> = ({navigation}) => {
         <SvgXml xml={visualize} />
       </TouchableOpacity>
       <TouchableOpacity
-        onPress = {() => navigation.navigate("MoneyHelp")}
+        onPress={() => navigation.navigate("ShopHelp")}
       >
         <SvgXml xml={about} />
       </TouchableOpacity>
