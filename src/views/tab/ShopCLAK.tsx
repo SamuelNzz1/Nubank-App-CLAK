@@ -1,6 +1,8 @@
 import React from "react";
-import { View } from "react-native";
+import { ScrollView, View } from "react-native";
 import { TopMoney } from "../../components/MoneyComponents/TopMoneyCLAK";
+import { Destaques } from "../../components/ShopComponents/DestaquesCLAK";
+import { Tudo } from "../../components/ShopComponents/TudoCLAK";
 
 type ShopProps = {
     navigation: any   
@@ -8,12 +10,15 @@ type ShopProps = {
 export const Shop : React.FC <ShopProps> = ({navigation}) => {
 
     return (
-    <View
-        style = {{flex: 1, backgroundColor: "white", }}
+    <ScrollView
+        contentContainerStyle = {{height: 900, backgroundColor: "white", gap: 20 }}
+        showsVerticalScrollIndicator = {false}
     >
         <TopMoney
             navigation={navigation}
         />
-    </View>
+        <Destaques />
+        <Tudo />
+    </ScrollView>
     )
 }
