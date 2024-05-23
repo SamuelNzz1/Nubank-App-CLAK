@@ -34,7 +34,8 @@ const styles = StyleSheet.create({
   container: {
       height: 700,
       backgroundColor: "white",
-      gap: 50
+      gap: 50,
+      paddingBottom: 20
       
 
   }
