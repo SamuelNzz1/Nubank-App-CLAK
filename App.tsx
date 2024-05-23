@@ -10,3 +10,4 @@ export default function App() {
     </SafeAreaView>
   );
 }
+// Alexandre [e gato]

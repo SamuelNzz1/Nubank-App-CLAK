@@ -26,7 +26,6 @@ export const Help : React.FC <HelpProps> = ({navigation}) => {
         <MiddleHelp
           searchText={searchText}
         />
-
       </ScrollView>
     )
 }
